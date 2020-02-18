@@ -1,0 +1,61 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: rgb(34, 34, 34);
+}
+
+.App {
+  color: rgb(17, 17, 17);
+  max-width: 740px;
+  background-color: rgb(247, 247, 247);
+  margin: 65px auto 45px;
+  border-radius: 4.5px;
+}
+
+.format-toolbar {
+  display: flex;
+  border-bottom: solid 1.7px rgb(34, 34, 34);
+  padding: 5px 20px;
+  margin: 0 0 10px 0;
+}
+
+.tooltip-icon-button {
+  border: 0;
+  padding: 5px 10px;
+  margin: 0 3px;
+  color: #aaa;
+  background-color: inherit;
+
+  border-radius: 10px;
+}
+
+.tooltip-icon-button:hover {
+  color: black;
+
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2),
+    -2px -2px 2px rgba(255, 255, 255, 0.6);
+}
+
+.tooltip-icon-button:active {
+  color: black;
+
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2),
+    -2px -2px 2px rgba(255, 255, 255, 0.6), inset 2px 2px 2px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 2px rgba(200, 200, 200, 0.05);
+}
+
+.editable {
+  padding: 0 20px 20px;
+}
